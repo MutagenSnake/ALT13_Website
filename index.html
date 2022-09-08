@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Thirteen</title>
@@ -11,13 +11,12 @@
     <nav>
         <a href="https://mutagensnake.github.io/Python_Uzduotys/website_project/">Home</a>
         <a href="#gallery">Gallery</a>
-        <a href="/#/">Shows</a>
-        <a href="/#/">Contacts</a>
+        <a href="#contacts">Contacts</a>
     </nav>
 </header>
 <main>
     <section class="intro">
-        <p>Not implemented</p>
+        <p>Gyvenimas yra bulvė</p>
     </section>
     <section class="people_section">
         <div class="people">
@@ -171,11 +170,52 @@
             <img src="gallery/289414023_5311602732287035_8137563793410536725_n.jpg" id="Image" height="300">
         </div>
     </section>
+    <section class="section_name" id="contacts">
+        <h2>Contacs</h2>
+    </section>
+    <section>
+        <form class="form" id="message_form">
+            <input type="text" id="name" placeholder="Name" name="name" required>
+            <input type="text" id="phone" placeholder="+370 xxx xxxxx" name="phone">
+            <input type="email" id="email" placeholder="email@email.com" name="email" required>
+            <select id="event_type">
+                <option value="wedding">Wedding</option>
+                <option value="open_party">Open Party</option>
+                <option value="private_party">Private Party</option>
+                <option value="public_event">Public event</option>
+                <option value="other">Other</option>
+            </select>
+            <input class="message" type="text" id="message" placeholder="Message..." name="message">
+            <input type="submit" value="Submit!">
+        </form>
+        <div>
+            <h3 class="congrats" id="congrats">Form submitted!</h3>
+        </div>
+    </section>
+    <section class="section_name">
+        <h2>Lists</h2>
+    </section>
+    <section class="lists">
+        <div>
+            <ol>
+                <li>Pamiegam</li>
+                <li>Padirbam</li>
+                <li>Pavalgom</li>
+            </ol>
+        </div>
+        <div>
+            <ul>
+                <li>Aš</li>
+                <li>Nemėgstu</li>
+                <li>Sąrašų</li>
+            </ul>
+        </div>
+    </section>
 </main>
 
 <footer>
     <div>
-        <p>Contacts: +37066666666 - Add a form !</p>
+        <p>Contacts: Use the form for contacts;   Author: M.S.;   Purpose of this site: To prove something;   Content rights: Whatever</p>
     </div>
 </footer>
 <script type="text/javascript" src="javascript.js"></script>
